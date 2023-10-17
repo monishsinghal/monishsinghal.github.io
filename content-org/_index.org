@@ -1,0 +1,14 @@
+#+hugo_base_dir: ../
+#+hugo_aliases: about
+#+hugo_section: 
+
+* About
+#+export_file_name: _index
+I am Monish Singhal, a computer science sophomore at IIIT Hyderabad.
+
+My current interests include theoretical computer science, logic, cryptography, systems and computer architecture. I am looking to explore ideas in machine learning, computer graphics, quantum computing and computer vision.
+
+I also enjoy watching (and playing sports), reading books and discussing random things.
+
+** Contact
+=firstname.lastname AT iiit.ac.in=
