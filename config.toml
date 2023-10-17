@@ -1,0 +1,50 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Monish's blog"
+disableHugoGeneratorInject = false
+enableRobotsTXT = true
+theme = "mini"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "CV"
+    url = "/CV/"
+    weight = 3
+
+[params]
+  author = "Monish Singhal"
+  descrption = "My personal site"
+  enableRSS = true
+  copyright = "monish"
+  showPowerBy = true
+  enableGoogleAnalytics = false
+  enableComments = false
+
+[[redirects]]
+  from = '/**'
+  status = 404
+  to = '/404.html'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'doom-one'
+    tabWidth = 4
